@@ -1,6 +1,6 @@
 """Durable storage for the LCM context engine.
 
-Three properties of this module are load-bearing for the B04 acceptance
+Three properties of this module are load-bearing for the engine's acceptance
 criteria, so they are stated once here rather than re-litigated per method:
 
 1. **Raw messages are append-only.**  ``sync_transcript`` only ever appends.

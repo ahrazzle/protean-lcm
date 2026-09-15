@@ -2,7 +2,7 @@
 name: hermes-lcm
 description: Use when context was compacted by the LCM engine and a detail must be recovered. Bounded recall over the current session's retained raw messages and DAG summary nodes.
 version: 0.1.0
-author: NousResearch (Protean B04)
+author: NousResearch
 license: MIT
 platforms: [linux, macos, windows]
 metadata:

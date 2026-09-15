@@ -1,4 +1,4 @@
-# Hermes LCM: context engine plugin (B04)
+# Hermes LCM: context engine plugin
 
 Opt-in, DAG-based context management for Hermes Agent. It replaces the built-in
 `ContextCompressor` when the user asks for it, and gets out of the way
