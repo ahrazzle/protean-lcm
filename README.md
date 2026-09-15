@@ -32,6 +32,14 @@ Notes
 - `pip install` on its own registers the plugin but does not activate it. Hermes plugins are opt-in through `plugins.enabled`, so `hermes plugins enable protean-lcm` is required.
 - Requirements: Python 3.10 or newer, and a Hermes Agent release that discovers pip plugins through the `hermes_agent.plugins` entry-point group and gates them with `plugins.enabled`. Hermes 0.21 and newer do this.
 
+## Provenance
+
+protean-lcm draws from the LCM paper concept (Ehrlich & Blackman, Voltropy PBC) and the design of stephenschoettler/hermes-lcm. We pulled the DAG-based compaction idea, the plugin-local SQLite store with FTS metadata, and the recall tools with recall-policy skill.
+
+We improved on that design by making it a proper third-party plugin with migration, backup, and rollback support. It uses bounded recall pages instead of unbounded loads. We added a one-line pip install where the upstream uses shell scripts.
+
+We deliberately omitted vector embeddings, the evidence compiler, model routing, OpenClaw imports, CLI commands, and the benchmark harness to keep the plugin minimal.
+
 ## Use
 
 Once enabled, the engine is available and selected by `context.engine: lcm`. It adds four agent-facing tools:
