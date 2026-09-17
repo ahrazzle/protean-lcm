@@ -19,9 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Attribution: concept inspired by stephenschoettler/hermes-lcm (MIT,
-Copyright (c) 2026 Stephen Schoettler), reimplemented for the Hermes Agent
-plugin interface. No upstream code is vendored in this repo.
