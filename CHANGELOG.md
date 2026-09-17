@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.1 — Documentation pass (2026-09-15)
+## 0.1.0 — Documentation pass (2026-09-15)
 
 **What:** Add CHANGELOG.md and update README.md to reflect Protean product family naming.
 
@@ -10,6 +10,6 @@
 
 ---
 
-## 1.0.0 — Initial release
+## 0.1.0 — Initial release
 
 Initial release of protean-lcm, an opt-in LCM DAG context engine plugin for Hermes Agent.
