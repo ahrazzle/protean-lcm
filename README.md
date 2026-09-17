@@ -34,7 +34,7 @@ Notes
 
 ## Provenance
 
-protean-lcm draws from the LCM paper concept (Ehrlich & Blackman, Voltropy PBC) and the design of stephenschoettler/hermes-lcm. We pulled the DAG-based compaction idea, the plugin-local SQLite store with FTS metadata, and the recall tools with recall-policy skill.
+protean-lcm is a member of the Protean product family: the ASKA Consulting plugin set for Hermes Agent. It draws from the LCM paper concept (Ehrlich & Blackman, Voltropy PBC) and the design of stephenschoettler/hermes-lcm. We pulled the DAG-based compaction idea, the plugin-local SQLite store with FTS metadata, and the recall tools with recall-policy skill.
 
 We improved on that design by making it a proper third-party plugin with migration, backup, and rollback support. It uses bounded recall pages instead of unbounded loads. We added a one-line pip install where the upstream uses shell scripts.
 
